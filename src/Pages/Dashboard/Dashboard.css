@@ -1,0 +1,54 @@
+/* Topbar*/
+
+
+/* sidbar*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.DashContent{
+    display: flex;
+}
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    
+    width: 20%;
+    height: 100vh;
+    border-right: 2px solid rgb(178, 175, 175);
+    padding: 20px;
+}
+.item-link{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(65, 63, 63);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.users{
+    width: 80%;
+    padding: 10px;
+}
+table{
+    font-family: "PT Serif", serif;
+    width: 100%;
+   border-collapse: collapse;
+}
+table td,table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+   
+}
+table tr:hover{
+    background-color: #ddd;
+    
+
+}
+table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+ 
+  background-color: rgb(58, 50, 50);
+  color: white;
+}

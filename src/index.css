@@ -1,0 +1,132 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.nav{
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(55, 49, 49);
+  box-shadow: 0px 1px 3px rgba(188, 179, 179, 0.639);
+ 
+  
+
+}
+.elements{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+.elements a{
+  
+  text-decoration: none;
+  color: beige;
+  padding:10px;
+ 
+}
+.elements a:hover{
+  
+  color: #d24949;
+
+
+}
+
+
+.logo{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: #ed0101a8;
+  padding: 10px ;
+  margin-left: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  /* filter:drop-shadow(1px 1px 10px rgb(254, 255, 231)) ; */
+}
+
+
+
+.father form{
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  outline: 2px rgb(230, 220, 220) solid;
+  
+
+  
+  }
+  .father form input{
+  border: gray 1px solid;
+  /* border-bottom: 2px solid #ccc; Add bottom border */
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px 0;
+  }
+  .father form input:focus{
+outline: none;
+    } 
+  
+  .father form label{
+    font-size: larger;
+    text-transform: capitalize;
+    font-weight: 700;
+    /* color: rgb(192, 165, 190); */
+    margin-top: 12px;
+    margin-bottom: 0;
+  
+  }
+  .father form p{
+    font-size: 0.9rem;
+  }
+  #submit,.navbtn{
+    text-align:center;
+    padding: 5px 15px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    background-color:rgb(224, 57, 57);
+    color:white;
+    font-size: medium;
+    font-weight:550;
+    margin: 6px;
+    transition: 0.2s ease;
+    text-decoration: none;
+  }
+  /* #submit:hover,.navbtn:hover{
+     color:rgb(224, 57, 57); 
+     background-color:rgb(164, 64, 64); 
+    transform: scale(1.1); */
+  
+  .error{
+    color: red;
+    font-size: 15px;
+    margin: 0;
+    
+  }
+
+  .login{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(58, 50, 50),rgb(224, 57, 57));
+  color: white;
+  
+  }
